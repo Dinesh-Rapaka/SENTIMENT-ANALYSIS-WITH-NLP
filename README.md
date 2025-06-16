@@ -1,31 +1,37 @@
 # SENTIMENT-ANALYSIS-WITH-NLP
-# RECOMMENDATION-SYSTEM
+# -DECISION-TREE-IMPLEMENTATION
 *COMPANY*: CODTECH IT SOLUTIONS
 *NAME*: RAPAKA DINESH
-*INTERN ID*: CT04DN1756 
-*DOMAIN* : MACHINE LEARNING 
-*DURATION* : 4 WEEKS 
+*INTERN ID*: CT04DN1756
+*DOMAIN* : MACHINE LEARNING
+*DURATION* : 4 WEEKS
 *MENTOR* : NEELA SANTOSH
-Objective
-To build a Recommendation System that predicts a user’s preferences (ratings) for items (like movies), using historical user-item interaction data.
-*📘 What is Collaborative Filtering?*
-Collaborative Filtering is a technique that recommends items to a user based on the preferences of similar users or similar items.
-*Two main types:*
-User-Based Filtering: Users similar to you liked X, so you might too.
-Item-Based Filtering: You liked X, and it's similar to Y, so you might like Y.
-Matrix Factorization (used here): Learns latent features that represent users and items and predicts ratings using dot-product of feature vectors.
-*🛠️ Implementation Details*
-*🧰 Libraries Used*
-surprise: For building and evaluating recommender systems.
-pandas, sklearn: For evaluation and data handling.
-*📦 Dataset*
-MovieLens 100k dataset (built into surprise library).
-100,000 movie ratings by 943 users on 1,682 movies.
-*📈 Output*
-RMSE score: Indicates how close predicted ratings are to the actual ones
-Sample predictions for user-item pairs.
-Ready for extension into an app or dashboard (e.g., Streamlit or Flask).
-*✅ Deliverables*
-Python script: collaborative_filtering_recommender.py
-Output: RMSE score + sample recommendation predictions
-Can be adapted to different datasets (e.g., product ratings, songs, books)
+*PLATFROM* : VS CODE
+*REQUIREMENTS* : PANDAS,SCIKIT-LEARN
+A Decision Tree is a supervised machine learning algorithm used for both classification and regression tasks. It works by splitting the data into branches based on feature values, ultimately leading to a decision or prediction at the leaf nodes.
+What Is a Decision Tree?
+Imagine making decisions by asking a series of yes/no or if/else questions — that’s how a decision tree works.
+How It Works:
+Root Node – The top of the tree where splitting starts.
+
+Internal Nodes – Where decisions are made (e.g., "Is feature X ≤ value?").
+
+Leaf Nodes – Final decision/prediction outcomes.
+
+Branches – Paths taken based on decision conditions.
+Key Concepts:
+Term	         Meaning
+Entropy/Gini	  :Measures of impurity used to find the best splits.
+Information Gain :	How much uncertainty is reduced after a split.
+Overfitting    	 :Trees that are too deep may memorize the training data.
+Pruning	         :Technique to reduce tree size and prevent overfitting.
+Advantages:
+Easy to understand and interpret.
+Handles both numerical and categorical data.
+Requires little data preparation (no normalization needed).
+Disadvantages:
+Prone to overfitting (especially deep trees).
+Small changes in data can lead to different trees.
+Less accurate than ensemble methods like Random Forests.
+*OUTPUT*
+![Image](https://github.com/user-attachments/assets/6bdb9102-4bf8-4230-bf18-c4998b7fa89e)
